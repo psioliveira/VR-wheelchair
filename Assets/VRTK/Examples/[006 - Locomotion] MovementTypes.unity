@@ -1658,9 +1658,9 @@ MonoBehaviour:
   angleTarget: 0
   isLocked: 0
   stepValueRange:
-    minimum: 0
+    minimum: -100
     maximum: 100
-  stepSize: 1
+  stepSize: -1
   useStepAsValue: 1
   snapToStep: 0
   snapForce: 10
@@ -10572,7 +10572,11 @@ MonoBehaviour:
   controllable: {fileID: 1929867479}
   platform: {fileID: 1039805869}
   pivotPoint: {fileID: 733164597}
+  wheel: {fileID: 0}
   speed: 10
+  value: 0
+  lastValue: 0
+  side: 1
 --- !u!114 &1587826730
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10588,7 +10592,11 @@ MonoBehaviour:
   controllable: {fileID: 233650770}
   platform: {fileID: 1039805869}
   pivotPoint: {fileID: 985735107}
+  wheel: {fileID: 0}
   speed: -10
+  value: 0
+  lastValue: 0
+  side: 1
 --- !u!1 &1602993058
 GameObject:
   m_ObjectHideFlags: 0
@@ -12477,9 +12485,9 @@ MonoBehaviour:
   angleTarget: 0
   isLocked: 0
   stepValueRange:
-    minimum: 0
+    minimum: -100
     maximum: 100
-  stepSize: 1
+  stepSize: -1
   useStepAsValue: 1
   snapToStep: 0
   snapForce: 10
